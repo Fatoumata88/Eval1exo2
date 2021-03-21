@@ -1,0 +1,85 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 72.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.wrap {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  flex: 1 1 auto;
+}
+
+#top {
+  width: 100%;
+  height: 200px;
+  background-color: red;
+}
+
+#header {
+  width: 100%;
+  height: 200px;
+  background-color: purple;
+}
+
+#menu {
+  width: 100%;
+  height: 200px;
+  background-color: green;
+}
+
+#content {
+  width: 100%;
+  height: 300px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+.left {
+  display: flex;
+  flex-direction: row;
+  background-color: blue;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+.right {
+  display: flex;
+  flex-direction: row;
+  background-color: yellow;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+.div {
+  width: 100%;
+  height: 50px;
+  background-color: gray;
+}
+
+#bottom {
+  width: 100%;
+  height: 200px;
+  background-color: orange;
+}
+
+#footer {
+  width: 100%;
+  height: 200px;
+  background-color: hotpink;
+}
+
+/*# sourceMappingURL=style.css.map */
